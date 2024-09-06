@@ -1,0 +1,38 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "16.0.0-dev"
+    },
+    "library_management": {
+        "resolution": {
+            "commit_hash": "2472b9dca2e21d961fde6fcde4517bd2e1af32c9",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    },
+    "pdc_meetups": {
+        "resolution": {
+            "commit_hash": "f5a15f30cf5040f532d2b3b2bd6933cb3dc189b2",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "0.0.1"
+    },
+    "stock_management": {
+        "resolution": {
+            "commit_hash": "a9407fba324a26b2a0542a30b475f4243834ce7c",
+            "branch": "develop"
+        },
+        "required": [],
+        "idx": 4,
+        "version": "0.0.1"
+    }
+}

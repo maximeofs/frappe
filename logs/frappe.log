@@ -1,0 +1,24 @@
+2024-09-06 17:10:15,092 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-06 17:12:14,816 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-06 17:16:01,140 ERROR frappe Error while inserting deferred Error Log record: (1406, "Data too long for column 'method' at row 1")
+Site: fresh.localhost
+Form Dict: {}
+2024-09-06 17:16:01,149 ERROR frappe Error while inserting deferred Error Log record: (1406, "Data too long for column 'method' at row 1")
+Site: fresh.localhost
+Form Dict: {}
+2024-09-06 17:18:36,661 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-06 17:18:51,389 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-06 17:21:17,656 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-06 17:22:26,336 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
