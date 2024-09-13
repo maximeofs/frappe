@@ -126,3 +126,730 @@ Backup Summary for library2.localhost at 2024-09-06 22:30:11.061763
 Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240906_223009-library2_localhost-site_config_backup.json 127.0B
 Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240906_223009-library2_localhost-database.sql.gz 211.1KiB
 Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240909_163002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-09 16:30:03.742668
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240909_163002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240909_163002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240906_180004-fresh_localhost-database.sql.gz is older than 24 hours
+File ./fresh.localhost/private/backups/20240906_180004-fresh_localhost-site_config_backup.json is older than 24 hours
+File ./fresh.localhost/private/backups/20240906_120003-fresh_localhost-database.sql.gz is older than 24 hours
+File ./fresh.localhost/private/backups/20240906_120003-fresh_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-09 12:00:04.713218
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240909_120003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240909_120003-fresh_localhost-database.sql.gz 225.7KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240906_180006-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20240906_180006-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20240906_120004-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20240906_120004-library_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240909_120004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-09 12:00:05.722805
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240909_120004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240909_120004-library_localhost-database.sql.gz 241.1KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240906_163005-library2_localhost-site_config_backup.json is older than 24 hours
+File ./library2.localhost/private/backups/20240906_163005-library2_localhost-database.sql.gz is older than 24 hours
+File ./library2.localhost/private/backups/20240906_223009-library2_localhost-site_config_backup.json is older than 24 hours
+File ./library2.localhost/private/backups/20240906_223009-library2_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240909_163005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-09 16:30:06.751833
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240909_163005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240909_163005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240909_223002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-09 22:30:03.879138
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240909_223002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240909_223002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240909_180003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-09 18:00:04.820434
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240909_180003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240909_180003-fresh_localhost-database.sql.gz 226.7KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240909_120004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240909_120004-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240909_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-09 18:00:05.858766
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240909_180004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240909_180004-library_localhost-database.sql.gz 242.3KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240909_223005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-09 22:30:06.888158
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240909_223005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240909_223005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240910_163002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-10 16:30:03.520912
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240910_163002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240910_163002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240909_180003-fresh_localhost-database.sql.gz is recent
+File ./fresh.localhost/private/backups/20240909_180003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240910_120003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-10 12:00:04.956315
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240910_120003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240910_120003-fresh_localhost-database.sql.gz 228.6KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240909_180004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240909_120004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240909_180004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240909_120004-library_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240910_120004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-10 12:00:06.063416
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240910_120004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240910_120004-library_localhost-database.sql.gz 257.3KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240909_223005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240909_223005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240910_163006-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-10 16:30:07.231847
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240910_163006-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240910_163006-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240911_163002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-11 16:30:03.252483
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240911_163002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240911_163002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-site_config_backup.json is older than 24 hours
+File ./fresh.localhost/private/backups/20240910_120003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240909_180003-fresh_localhost-database.sql.gz is older than 24 hours
+File ./fresh.localhost/private/backups/20240909_180003-fresh_localhost-site_config_backup.json is older than 24 hours
+File ./fresh.localhost/private/backups/20240910_120003-fresh_localhost-database.sql.gz is recent
+File ./fresh.localhost/private/backups/20240909_120003-fresh_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-11 12:00:04.011366
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240911_120003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240911_120003-fresh_localhost-database.sql.gz 230.9KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240909_180004-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20240910_120004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240910_120004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240909_120004-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20240909_180004-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20240909_120004-library_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240911_120004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-11 12:00:05.023884
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240911_120004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240911_120004-library_localhost-database.sql.gz 263.9KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240909_223005-library2_localhost-site_config_backup.json is older than 24 hours
+File ./library2.localhost/private/backups/20240909_223005-library2_localhost-database.sql.gz is older than 24 hours
+File ./library2.localhost/private/backups/20240910_163006-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240910_163006-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-database.sql.gz is older than 24 hours
+File ./library2.localhost/private/backups/20240909_163005-library2_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240911_163005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-11 16:30:06.216890
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240911_163005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240911_163005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240911_223002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-11 22:30:03.685645
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240911_223002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240911_223002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240910_120003-fresh_localhost-site_config_backup.json is older than 24 hours
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240910_120003-fresh_localhost-database.sql.gz is older than 24 hours
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240911_180003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-11 18:00:04.415472
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240911_180003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240911_180003-fresh_localhost-database.sql.gz 231.7KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240910_120004-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20240911_120004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240911_120004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240910_120004-library_localhost-site_config_backup.json is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240911_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-11 18:00:05.284407
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240911_180004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240911_180004-library_localhost-database.sql.gz 265.9KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240910_163006-library2_localhost-database.sql.gz is older than 24 hours
+File ./library2.localhost/private/backups/20240910_163006-library2_localhost-site_config_backup.json is older than 24 hours
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240911_223005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-11 22:30:06.158130
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240911_223005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240911_223005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240912_163002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-12 16:30:03.629246
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240912_163002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240912_163002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240911_180003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240911_180003-fresh_localhost-database.sql.gz is recent
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240912_120003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-12 12:00:04.498925
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240912_120003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240912_120003-fresh_localhost-database.sql.gz 232.8KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240911_180004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240911_120004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240911_120004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240911_180004-library_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240912_120004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-12 12:00:05.519733
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240912_120004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240912_120004-library_localhost-database.sql.gz 271.8KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240911_223005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240911_223005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-database.sql.gz is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240912_163005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-12 16:30:06.696404
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240912_163005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240912_163005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_6f67f582b77820dc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _6f67f582b77820dc | /usr/bin/gzip >> ./fresh.dev/private/backups/20240912_223002-fresh_dev-database.sql.gz
+
+Backup Summary for fresh.dev at 2024-09-12 22:30:03.483003
+Config  : /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240912_223002-fresh_dev-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/fresh.dev/private/backups/20240912_223002-fresh_dev-database.sql.gz 211.3KiB
+Backup for Site fresh.dev has been successfully completed
+File ./fresh.localhost/private/backups/20240911_180003-fresh_localhost-site_config_backup.json is recent
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-site_config_backup.json is older than 24 hours
+File ./fresh.localhost/private/backups/20240912_120003-fresh_localhost-database.sql.gz is recent
+File ./fresh.localhost/private/backups/20240911_180003-fresh_localhost-database.sql.gz is recent
+File ./fresh.localhost/private/backups/20240911_120003-fresh_localhost-database.sql.gz is older than 24 hours
+File ./fresh.localhost/private/backups/20240912_120003-fresh_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_5a23f5af2900cc4e --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _5a23f5af2900cc4e | /usr/bin/gzip >> ./fresh.localhost/private/backups/20240912_180003-fresh_localhost-database.sql.gz
+
+Backup Summary for fresh.localhost at 2024-09-12 18:00:04.231967
+Config  : /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240912_180003-fresh_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/fresh.localhost/private/backups/20240912_180003-fresh_localhost-database.sql.gz 233.9KiB
+Backup for Site fresh.localhost has been successfully completed
+File ./library.localhost/private/backups/20240911_180004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240911_120004-library_localhost-database.sql.gz is older than 24 hours
+File ./library.localhost/private/backups/20240911_120004-library_localhost-site_config_backup.json is older than 24 hours
+File ./library.localhost/private/backups/20240911_180004-library_localhost-site_config_backup.json is recent
+File ./library.localhost/private/backups/20240912_120004-library_localhost-database.sql.gz is recent
+File ./library.localhost/private/backups/20240912_120004-library_localhost-site_config_backup.json is recent
+set -o pipefail; /usr/bin/mariadb-dump --user=_3a9a2a0dba516c26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _3a9a2a0dba516c26 | /usr/bin/gzip >> ./library.localhost/private/backups/20240912_180004-library_localhost-database.sql.gz
+
+Backup Summary for library.localhost at 2024-09-12 18:00:05.164130
+Config  : /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240912_180004-library_localhost-site_config_backup.json 194.0B
+Database: /home/support_4/frappe-bench/sites/library.localhost/private/backups/20240912_180004-library_localhost-database.sql.gz 272.9KiB
+Backup for Site library.localhost has been successfully completed
+File ./library2.localhost/private/backups/20240912_163005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240911_223005-library2_localhost-database.sql.gz is recent
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-site_config_backup.json is older than 24 hours
+File ./library2.localhost/private/backups/20240911_223005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240912_163005-library2_localhost-site_config_backup.json is recent
+File ./library2.localhost/private/backups/20240911_163005-library2_localhost-database.sql.gz is older than 24 hours
+set -o pipefail; /usr/bin/mariadb-dump --user=_aec3a1164b626331 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _aec3a1164b626331 | /usr/bin/gzip >> ./library2.localhost/private/backups/20240912_223005-library2_localhost-database.sql.gz
+
+Backup Summary for library2.localhost at 2024-09-12 22:30:06.024536
+Config  : /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240912_223005-library2_localhost-site_config_backup.json 127.0B
+Database: /home/support_4/frappe-bench/sites/library2.localhost/private/backups/20240912_223005-library2_localhost-database.sql.gz 211.1KiB
+Backup for Site library2.localhost has been successfully completed
+Traceback (most recent call last):
+  File "/home/support_4/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 89, in get_app_commands
+    app_command_module = importlib.import_module(f"{app}.commands")
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 992, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site fresh.dev. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 0
+      rollback_callback = None
+      site = 'fresh.dev'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'fresh.dev'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site fresh.localhost. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 1
+      rollback_callback = None
+      site = 'fresh.localhost'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'fresh.localhost'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site legends. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 1
+      rollback_callback = None
+      site = 'legends'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'legends'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site legends.localhost. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 1
+      rollback_callback = None
+      site = 'legends.localhost'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'legends.localhost'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site library.localhost. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 1
+      rollback_callback = None
+      site = 'library.localhost'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'library.localhost'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'
+Backup failed for Site library2.localhost. Database or site_config.json may be corrupted
+Traceback with variables (most recent call last):
+  File "apps/frappe/frappe/commands/site.py", line 826, in backup
+    frappe.init(site=site)
+      context = {'sites': ['fresh.dev', 'fresh.localhost', 'legends', 'legends.localhost', 'library.localhost', 'library2.localhost'], 'force': False, 'verbose': True, 'profile': False}
+      with_files = False
+      backup_path = None
+      backup_path_db = None
+      backup_path_files = None
+      backup_path_private_files = None
+      backup_path_conf = None
+      ignore_backup_conf = False
+      verbose = True
+      compress = False
+      include = ''
+      exclude = ''
+      old_backup_metadata = False
+      scheduled_backup = <function scheduled_backup at 0x7f9084f481f0>
+      exit_code = 1
+      rollback_callback = None
+      site = 'library2.localhost'
+  File "apps/frappe/frappe/__init__.py", line 312, in init
+    setup_module_map(include_all_apps=not (frappe.request or frappe.job or frappe.flags.in_migrate))
+      site = 'library2.localhost'
+      sites_path = '.'
+      new_site = False
+      force = False
+  File "apps/frappe/frappe/__init__.py", line 1742, in setup_module_map
+    for module in get_module_list(app):
+      include_all_apps = True
+      apps = ['frappe', 'stock_management', 'pdc_meetups', 'erpnext', 'library_management']
+      app = 'erpnext'
+      module = 'pdc_meetups'
+  File "apps/frappe/frappe/__init__.py", line 1590, in get_module_list
+    return get_file_items(get_app_path(app_name, "modules.txt"))
+      app_name = 'erpnext'
+  File "apps/frappe/frappe/__init__.py", line 1555, in get_app_path
+    return get_pymodule_path(app_name, *joins)
+      app_name = 'erpnext'
+      joins = ('modules.txt',)
+  File "apps/frappe/frappe/__init__.py", line 1585, in get_pymodule_path
+    return abspath(join(dirname(get_module(scrub(modulename)).__file__ or ""), *joins))
+      modulename = 'erpnext'
+      joins = ['modules.txt']
+      abspath = <function abspath at 0x7f9087662e60>
+      dirname = <function dirname at 0x7f9087662a70>
+      join = <function join at 0x7f90876627a0>
+  File "apps/frappe/frappe/__init__.py", line 1526, in get_module
+    return importlib.import_module(modulename)
+      modulename = 'erpnext'
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+      name = 'erpnext'
+      package = None
+      level = 0
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      module = <exception while printing> Traceback (most recent call last):
+          File "env/lib/python3.10/site-packages/traceback_with_variables/core.py", line 222, in _to_cropped_str
+            raw = print_(obj)
+          File "apps/frappe/frappe/utils/__init__.py", line 346, in dict_printer
+            if key in v:
+        TypeError: argument of type 'object' is not iterable
+        
+  File "<frozen importlib._bootstrap>", line 1004, in _find_and_load_unlocked
+      name = 'erpnext'
+      import_ = <function _gcd_import at 0x7f90877b3400>
+      path = None
+      parent = ''
+      spec = None
+builtins.ModuleNotFoundError: No module named 'erpnext'

@@ -1,4 +1,5 @@
 frappe
 stock_management
 pdc_meetups
+erpnext
 library_management

@@ -2721,3 +2721,129 @@ ALTER TABLE `tabArticle` ADD COLUMN `data_iiqy` varchar(140)
 ALTER TABLE `tabArticle` MODIFY `acrticle_name` varchar(140) NOT NULL DEFAULT '', MODIFY `published` tinyint NOT NULL DEFAULT 0
 2024-09-05 12:36:51,514 WARNING database DDL Query made to DB:
 ALTER TABLE `tabArticle` MODIFY `acrticle_name` varchar(140) NOT NULL DEFAULT '', MODIFY `published` tinyint NOT NULL DEFAULT 0
+2024-09-10 09:57:01,463 WARNING database DDL Query made to DB:
+create table `tabBook` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-10 10:06:40,122 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `isbn` varchar(140), ADD COLUMN `name1` varchar(140), ADD COLUMN `author` varchar(140), ADD COLUMN `date_of_publication` date
+2024-09-10 10:07:16,037 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD UNIQUE INDEX IF NOT EXISTS isbn (`isbn`)
+2024-09-10 10:09:51,497 WARNING database DDL Query made to DB:
+create table `tabCategory` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-10 10:11:33,164 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCategory` ADD COLUMN `nom` varchar(140), ADD COLUMN `description` text
+2024-09-10 10:13:14,741 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCategory` ADD COLUMN `name1` varchar(140)
+2024-09-10 10:14:45,731 WARNING database DDL Query made to DB:
+alter table `tabBook` add column if not exists parent varchar(140)
+2024-09-10 10:14:45,752 WARNING database DDL Query made to DB:
+alter table `tabBook` add column if not exists parenttype varchar(140)
+2024-09-10 10:14:45,776 WARNING database DDL Query made to DB:
+alter table `tabBook` add column if not exists parentfield varchar(140)
+2024-09-10 10:22:16,498 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `category` varchar(140), ADD COLUMN `name_of_category` varchar(140)
+2024-09-10 10:23:50,162 WARNING database DDL Query made to DB:
+create table `tabLoan` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus tinyint not null default '0',
+			idx int not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index creation(creation))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2024-09-10 10:31:58,087 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `library_member` varchar(140), ADD COLUMN `borrower` varchar(140), ADD COLUMN `date` date, ADD COLUMN `date_of_return_estimated` date, ADD COLUMN `state` varchar(140)
+2024-09-10 10:46:57,515 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD COLUMN `book` varchar(140), ADD COLUMN `nom_of_book` varchar(140)
+2024-09-10 10:46:57,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` MODIFY `state` varchar(140) DEFAULT 'borrowed'
+2024-09-10 10:48:57,289 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` ADD UNIQUE INDEX IF NOT EXISTS borrower (`borrower`)
+2024-09-10 11:11:35,824 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `state` varchar(140) DEFAULT 'available'
+2024-09-10 11:35:10,445 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` ADD COLUMN `number_of_loan` int NOT NULL DEFAULT 0
+2024-09-10 11:35:48,370 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` MODIFY `number_of_loan` int NOT NULL DEFAULT 0
+2024-09-10 11:57:35,799 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `route` varchar(140), ADD COLUMN `published` tinyint NOT NULL DEFAULT 0
+2024-09-10 11:58:43,206 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 11:58:43,206 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 12:00:47,556 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 12:00:47,556 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 12:02:14,282 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `cover` text
+2024-09-10 12:02:14,282 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` ADD COLUMN `cover` text
+2024-09-10 12:02:14,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 12:02:14,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 17:07:26,973 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 17:07:43,449 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-10 17:12:04,248 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-11 08:48:20,934 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1, ADD UNIQUE INDEX IF NOT EXISTS name1 (`name1`)
+2024-09-11 09:27:25,614 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-11 15:57:23,260 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-11 15:58:28,868 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` MODIFY `number_of_loan` int NOT NULL DEFAULT 0
+2024-09-12 08:17:08,440 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` MODIFY `number_of_loan` int NOT NULL DEFAULT 0
+2024-09-12 08:31:16,650 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLibrary Member` MODIFY `number_of_loan` int NOT NULL DEFAULT 0
+2024-09-12 10:26:36,389 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLoan` DROP INDEX `borrower`
+2024-09-12 17:13:32,569 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1
+2024-09-12 17:13:51,517 WARNING database DDL Query made to DB:
+ALTER TABLE `tabBook` MODIFY `published` tinyint NOT NULL DEFAULT 1

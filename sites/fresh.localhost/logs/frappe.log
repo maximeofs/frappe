@@ -22,3 +22,9 @@ Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-
 2024-09-06 17:22:26,336 ERROR frappe New Exception collected in error log
 Site: fresh.localhost
 Form Dict: {'doc': '{"docstatus":0,"doctype":"Stock Movement","name":"new-stock-movement-oqhiadclcv","__islocal":1,"__unsaved":1,"owner":"Administrator","type":"Out","product":"tudbf9ha52","quantity":1,"remarks":"<div class=\\"ql-editor read-mode\\"><p>Out of one quantity of product brosse</p></div>"}', 'action': 'Save', 'cmd': 'frappe.desk.form.save.savedocs'}
+2024-09-09 08:44:36,525 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {}
+2024-09-09 08:58:27,583 ERROR frappe New Exception collected in error log
+Site: fresh.localhost
+Form Dict: {'limit_page_length': 20}
